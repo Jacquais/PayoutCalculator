@@ -16,6 +16,6 @@ if __name__ == "__main__":
         arg2 = float(sys.argv[2])
         arg3 = float(sys.argv[3])
     except(IndexError, ValueError):
-        print("Usage: myprogram.py <minimum payout> <current balance> <estimated per hour earnings>\nRemember: only use numbers.")
+        print("Usage: payout.py <minimum payout> <current balance> <estimated per hour earnings>\nRemember: only use numbers.")
         sys.exit(1)
     program(arg1, arg2, arg3)
