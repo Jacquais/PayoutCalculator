@@ -45,12 +45,6 @@ if __name__ == "__main__":
         if sys.argv[1] in ("h", "-h", "--help"):
             raise ValueError
     except(IndexError, ValueError):
-<<<<<<< HEAD
         print("Usage: Payout.py <currency (eth/etc/sia/zec/xmr/pasc)> <account address> <minimum payout>")
         sys.exit(1)
     program(currency, addr, payout)
-=======
-        print("Usage: payout.py <minimum payout> <current balance> <estimated per hour earnings>\nRemember: only use numbers.")
-        sys.exit(1)
-    program(arg1, arg2, arg3)
->>>>>>> origin/master
