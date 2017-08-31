@@ -1,7 +1,5 @@
 # PayoutCalculator
-Calculate how long it will take to payout of a cryptocurrency mining pool.
-
-Its very simple- only about 20 lines. I probably could shorten it more, but im lazy and dont want to.
+Calculate how long it will take to payout of the nanopool mining pool.
 
 # Usage
-`payout.py <minimum payout> <current balance> <estimated per hour earnings>`
+`payout.py <currency (eth/etc/sia/zec/xmr/pasc)> <account address>`
